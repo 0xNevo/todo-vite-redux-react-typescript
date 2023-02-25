@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Nunito, sans-serif;
+	background: #f5f6f7;
+}
+
+main {
+	max-width: 30rem;
+	margin: auto;
+	padding: 2rem 1rem;
+}
+
+main > h1 {
+	text-align: center;
+}
+
+.Add-article {
+	margin: 2rem auto;
+	padding: 1rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.Add-article input {
+	display: block;
+	margin: 1rem auto;
+	width: 20rem;
+	padding: 0.5rem;
+	border: 1px solid #00b8e6;
+	border-radius: 10px;
+	outline: none;
+}
+
+.Add-article button {
+	width: 21rem;
+	padding: 0.7rem;
+	border: 1px solid #00b8e6;
+	background: #00b8e6;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+}
+
+.Add-article button:hover {
+	background: #0093b8;
+}
+
+.Add-article button:disabled {
+	background: #d8d8d8;
+	border: 1px solid #d8d8d8;
+	cursor: not-allowed;
+}
+
+.Article {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.Article:not(:last-child) {
+	border-bottom: 2px solid #f5f6f7;
+}
+
+.Article h1 {
+	color: #222;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 1.7rem;
+}
+
+.Article p {
+	padding-right: 1rem;
+	color: #444;
+}
+.Article button {
+	padding: 0.5rem 0.7rem;
+	border: 1px solid #d34b4b;
+	background: #d34b4b;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+}
+
+.Article button:hover {
+	background: #e06a6a;
+}
